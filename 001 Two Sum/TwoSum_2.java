@@ -3,7 +3,6 @@ public class Solution
     public int[] twoSum(int[] nums, int target)
     {
         int[] sol = new int[2];
-
     	int[] copy = new int[nums.length];
     	for(int i = 0; i < nums.length; i++)
     	{
@@ -20,8 +19,6 @@ public class Solution
     		 }
     	}
 		return sol;
-
-
     }
 
     //Find the position in original array
@@ -35,7 +32,6 @@ public class Solution
 		    {
 		        s[k++] = i;
 		    }
-
 		}
 		return s;
 	}
@@ -59,6 +55,6 @@ public class Solution
 		else
 		{
 			return BSearch(t,mid+1,end,a);
-		}				
+		}
 	}
 }

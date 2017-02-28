@@ -4,13 +4,11 @@ public class Solution
     {
         int n = nums.length;
         int[] sol = new int[2];
-
     	int[] copy = new int[n];
     	for(int i = 0; i < n; i++)
     	{
     	    copy[i] = nums[i];
     	}
-
     	Arrays.sort(nums);
     	// str: left pointer, end: right pointer
         int str = 0, end = n - 1;
@@ -36,7 +34,6 @@ public class Solution
     	sol = FindPostion(nums[str],nums[end],copy);
 		return sol;
     }
-
     //Find the position in original array
 	private int[] FindPostion(int v1, int v2, int[] a)
 	{
@@ -48,7 +45,6 @@ public class Solution
 		    {
 		        s[k++] = i;
 		    }
-
 		}
 		return s;
 	}

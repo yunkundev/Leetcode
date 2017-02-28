@@ -20,4 +20,4 @@ You may assume that each input would have exactly one solution, and you may not 
 脑子中最直接的想法就是排序+二分，将原来的数组排序之后用二分查找 target-num, 但最多能够实现O(nlogn)   *{TwoSum_2.java}* 在LeetCode上测试也从52ms降到了9ms
 
 #### Update 1
-后来突然想到当时看算法书的时候还没学BinarySearch, 当时应该是用的前后两个指针向中间交替逼近，总和大的话右指针往左移，小了的话左指针往右移。 *{TwoSum_3.java}* 以在O(n)的时间内实现对有序数组的Two Sum问题，但是由于需要第一步排序，时间复杂度还是O(nlogn)，不过时间是6ms前%2了，应该算是一个很优的解法了。线性复杂度的还在想，好久没写了思路有点慢。
+后来突然想到当时看算法书的时候还没学BinarySearch, 当时应该是用的前后两个指针向中间交替逼近，总和大的话右指针往左移，小了的话左指针往右移。 *{TwoSum_3.java}* 以在O(n)的时间内实现对有序数组的Two Sum问题，但是由于需要第一步排序，时间复杂度还是O(nlogn)，不过时间是6ms前%2了，应该算是一个很优的解法了。
