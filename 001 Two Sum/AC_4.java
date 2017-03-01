@@ -1,5 +1,6 @@
 public class Solution
 {
+    // HashMap O(n^2)
     public int[] twoSum(int[] nums, int target)
     {
         HashMap<Integer, Integer>map = new HashMap<Integer, Integer>();
