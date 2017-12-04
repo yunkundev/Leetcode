@@ -1,0 +1,21 @@
+# 651. 4 Keys Keyboard
+
+Imagine you have a special keyboard with the following keys:
+
+Key 1: (A): Print one 'A' on screen.
+
+Key 2: (Ctrl-A): Select the whole screen.
+
+Key 3: (Ctrl-C): Copy selection to buffer.
+
+Key 4: (Ctrl-V): Print buffer on screen appending it after what has already been printed.
+
+Now, you can only press the keyboard for N times (with the above four keys), find out the maximum numbers of 'A' you can print on screen.
+
+### Solution:
+
+This basically is a easy problem which we have just 2 ways to get best length new word:
+
+1, print N times.
+
+2, duplicate the former word i-j-1 times.
