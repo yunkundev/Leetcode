@@ -34,11 +34,11 @@ We can use iteration instead of recursion to avoid global value.
 We not regard tree likes a tree, we regard tree likes a lot of nodes which visit one by one. And everytime you visit a new node, you insert it into our linked list.
 
 
-
 ## Improve3
 
 **GeeksforGeeks:** 
 https://www.geeksforgeeks.org/convert-a-binary-tree-to-a-circular-doubly-link-list/
 
 This problem can thought as Divide and Conquer problem. If we convert both left/right child tree to double linked list, we can easily connect these three double linked list into one after change the root node by link left and right to the node itself.
+
 
